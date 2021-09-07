@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+    font-family: Arial;
+    background-image: url('https://wallpaperaccess.com/full/1091424.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+}
+.container{
+    display: flex;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loremDiv{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    margin-bottom: -150px;
+
+}
+
+.logForm{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+}
+
+.texto{
+    color: gray;
+    font-size: 13px;
+}
+
+.social_icon span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;width: 140px;}
+
+.card-header h3{
+    color: gray;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border: none;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-body{
+    background-color: lightgray;
+    width: 500px;
+    margin-left: -1px;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;width: 140px;}
+
+.omb_login .omb_socialButtons a {
+    color: white; 
+    opacity:0.9; 
+}
+
+.omb_login .omb_socialButtons a:hover {
+    color: white;
+    opacity:1;    
+}
+
+.imgRedes{
+    max-height: 20px;
+    max-width: 20px;
+    margin-left: -10px;
+}
+
+.imgCandado{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.remember{
+    color: white;
+}
+
+.remember input{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+::placeholder{
+    font-size: 13px;
+}
+
+.form-group input{
+    color: black;
+}
+
+.login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998; width: 140px;}
+
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+}
+
+.loginwith{
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
